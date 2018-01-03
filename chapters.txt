@@ -1,1 +1,7 @@
 527 "Ao-no-Exorcist"
+15060 "Tokyo GHOUL :re"
+6624 "Shokugeki no Soma"
+5404 "One Piece"
+7236 "The Gamer"
+6528 "Attack on Titan"
+1698 "Detective Conan"

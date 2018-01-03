@@ -49,7 +49,13 @@ then
 else
 	File="../chapters.txt"
 	p=${PWD##*/} #this is the anime number(inside anime folder eg: 5404/)
-
+if ! grep -q $p "$File"; then
+echo enter the anime name
+read name
+if ! grep -q $name "$File"; then 
+echo "$p \"$name\"" >> ../chapters.txt
+fi
+fi
 lftp -e "cls -1 > /tmp/list; exit" "http://www.funmanga.com/uploads/chapters/$p"
 	#It gets the names of directories (anime chapters the present anime has) stores in /tmp/list
 all=`ls -v -1 /tmp/list`

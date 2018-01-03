@@ -53,8 +53,10 @@ do
 4)
 Go inside the first directory and you will find index.html
 do
-
-	firefox index.html
+	cd 0/
+	firefox index.html #I'm Using firefox
+	#or
+	#xdg-open index.html 
 
        					       ENJOY
 
