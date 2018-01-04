@@ -17,6 +17,18 @@ then
 	then
 	if [[ $link == *uploads/chapters/* ]];
 	then
+	if ! grep -q ${link:42} "$File"; then
+		echo enter the anime name
+		read name
+		if [[ $link == *https* ]]
+		then
+		fin=${link:42}
+		fin=`echo $fin | cut -d '/' -f1`
+		fi
+		if ! grep -q $name "$File"; then
+			echo "$fin \"$name\"" >> chapters.txt
+		fi
+	fi
 	cd ../../../
 	wget -N -k -np -r -q --show-progress $link
 	cd -

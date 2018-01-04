@@ -6,9 +6,11 @@ cp wget.sh www.funmanga.com/uploads/chapters/
 cp wget.sh www.funmanga.com/uploads/chapters/1051/
 cp README.md www.funmanga.com/uploads/chapters/
 cp chapters.txt www.funmanga.com/uploads/chapters/
-cp backtotop.txt www.funmanga.com/uploads/chapters/
+cp style.txt www.funmanga.com/uploads/chapters/
+cp script.txt www.funmanga.com/uploads/chapters/
+cp content.txt www.funmanga.com/uploads/chapters/
 cp examples.txt www.funmanga.com/uploads/chapters/
 cp linkget.sh www.funmanga.com/uploads/chapters/
 
 
-#chapters.txt  examples.txt  important.txt  indvtest.sh  linkget.sh  README.md  testforall.sh  wget.sh
+#chapters.txt  examples.txt  important.txt  indvtest.sh  linkget.sh  README.md  testforall.sh  wget.sh style.txt script.txt content.txt 

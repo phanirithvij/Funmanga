@@ -1,0 +1,29 @@
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+
+// When the user clicks on the button, scroll to the top of the document
+function bottFunction() {
+    document.body.scrollTop = 1000000000;
+    document.documentElement.scrollTop = 10000000000000;
+}
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+<script src="../../jquery-1.12.4.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+        var boxWidth = $(".box").width();
+        $(".slide-left").hover(function(){
+                $(".box").animate({
+                        width: boxWidth
+                });
+        });
+        $(".slide-right").hover(function(){
+                $(".box").animate({
+                        width: 0
+                });
+        });
+});
+</script>

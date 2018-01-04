@@ -1,0 +1,117 @@
+<style type="text/css">
+.box{
+	bottom:50px;
+	right:0px;
+	background: #8EB9C9;
+	position: fixed;
+}
+#button1{
+	display: block;
+	position: fixed;
+	bottom: 0px;
+	right: 70px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: #4CAF50;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+#button1:hover {
+	background-color: #39738A;
+}
+
+#button2{
+	display: block;
+	position: fixed;
+	bottom: 0px;
+	right: 2px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: #4CAF50;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+#button2:hover {
+	background-color: #39738A;
+}
+.box-inner{
+	padding: 10px;
+	border: 1px solid;
+}
+</style>
+<style>
+#myBtn2 {
+  display: block;
+  position: relative;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#myBtn2:hover {
+  background-color: #39738A;
+}
+#myBtn {
+  display: block;
+  position: relative;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#myBtn:hover {
+  background-color: #39738A;
+}
+#myBtn3 {
+        display: block;
+        position: relative;
+        z-index: 99;
+        border: none;
+        outline: none;
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 10px;
+}
+
+#myBtn3:hover {
+        background-color: #39738A;
+}
+#myBtn4 {
+        display: block;
+        position: relative;
+        z-index: 99;
+        border: none;
+        outline: none;
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 10px;
+}
+
+#myBtn4:hover {
+        background-color: #39738A;
+}
+
+</style>
+

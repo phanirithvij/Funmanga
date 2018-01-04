@@ -1,0 +1,7 @@
+<button type="button" class="slide-left" id="button1">show</button>
+<button type="button" class="slide-right" id="button2">hide</button>
+<div class="box">
+                <div class="box-inner">
+<button onclick="bottFunction()" id="myBtn2" title="Go to bottom">Bottom of the page</button><br>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top of the page</button><br>
+
