@@ -11,6 +11,7 @@ cp script.txt www.funmanga.com/uploads/chapters/
 cp content.txt www.funmanga.com/uploads/chapters/
 cp examples.txt www.funmanga.com/uploads/chapters/
 cp linkget.sh www.funmanga.com/uploads/chapters/
+cp jquery-1.12.4.min.js www.funmanga.com/uploads/chapters/
 
 
 #chapters.txt  examples.txt  important.txt  indvtest.sh  linkget.sh  README.md  testforall.sh  wget.sh style.txt script.txt content.txt 
