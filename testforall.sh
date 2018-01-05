@@ -5,17 +5,25 @@ for h in `ls -1 -v`
 do
 if [ -d $h ]
 then
-	if [ -f indvtest.sh ]
-	then
-	cp indvtest.sh $h/
-	fi
+	#if [ -f indvtest.sh ]
+	#then
+	#cp indvtest.sh $h/
+	#fi
 rm $h/index*
 x=0
 ew=${PWD##*/}
 nam=`cat ../chapters.txt | grep "$ew" | cut -d "\"" -f2`
 echo '<html>' > $h/index.html
 echo '<head>' >> $h/index.html
-echo '<link rel="shortcut icon" type="image/jpeg" href="/home/phanirithvij2000/Pictures/Junk/One%20piece%20logo.jpg">' >> $h/index.html
+if [ -f /home/phanirithvij2000/Pictures/Junk/One_piece_logo.jpg  ]
+then
+echo '<link rel="shortcut icon" type="image/jpeg" href="/home/phanirithvij2000/Pictures/Junk/One_piece_logo.jpg">' >> $h/index.html
+else
+echo give the link for any image to be your logo
+read img
+ty=`echo $img | rev | cut -d "." -f1 | rev`
+echo "<link rel=\"shortcut icon\" type=\"image/$ty\" href=\"$img\">" >> $h/index.html
+fi
 echo '<title>' >> $h/index.html
 echo "$nam $h" >> $h/index.html
 echo '</title>' >> $h/index.html
