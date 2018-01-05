@@ -1,5 +1,3 @@
-cd ~ ;mkdir -p Pictures/Junk/furthermorejunk/funmanga/
-cd ~/Pictures/Junk/furthermorejunk/funmanga/
 wget -k -np -r -q --show-progress http://www.funmanga.com/uploads/chapters/1051/0/p_00001.jpg
 cp testforall.sh www.funmanga.com/uploads/chapters/1051/
 cp testforall.sh www.funmanga.com/uploads/chapters/
