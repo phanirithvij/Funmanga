@@ -6,6 +6,12 @@ Well,well,well what have we got here?
 
 ==> Arranges them in a read-able format a html format
 
+Requirements :
+
+wget 
+linux system
+
+
 +> Steps to follow
 1)
 Do this in terminal(In the directory Manga you are in)
