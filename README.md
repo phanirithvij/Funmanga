@@ -8,8 +8,9 @@ Well,well,well what have we got here?
 
 Requirements :
 
-wget 
-linux system
+1. wget 
+
+2. linux system
 
 
 +> Steps to follow
