@@ -1,4 +1,4 @@
-
+The sizes usually are above 1gb for each manga
 
 check chapters.txt for number and manga
 
