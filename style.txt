@@ -113,5 +113,9 @@
         background-color: #39738A;
 }
 
+p{
+        left: 50%;
+}
+
 </style>
 
