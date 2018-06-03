@@ -5,3 +5,4 @@
 7236 "The Gamer"
 6528 "Attack on Titan"
 1698 "Detective Conan"
+2346 "Gintama"
