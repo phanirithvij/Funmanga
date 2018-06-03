@@ -8,12 +8,12 @@ Well,well,well what have we got here?
 
 Requirements :
 
-1. wget 
+1. wget
 
 2. linux system
 
-
 +> Steps to follow
+
 1)
 Do this in terminal(In the directory Manga you are in)
 Copy and paste it if you want to
@@ -51,7 +51,7 @@ copy the link you are now in and do this in chapters/ directory
 ./wget.sh url
 ```
 
-It can download that particular chapter which you are in 
+It can download that particular chapter which you are in
 or The Entire Manga of the link you specified
 
 3)
@@ -72,7 +72,7 @@ do
 cd 0/
 firefox index.html #I'm Using firefox
 #or
-#xdg-open index.html 
+#xdg-open index.html
 ```
 
 (Optional)=>
