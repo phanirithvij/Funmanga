@@ -1,3 +1,8 @@
+# There is going to be a python version of this in near future
+
+## Still In Development
+
+
 # Well,well,well what have we got here?
 
 - Manga downloader by Phani Rithvij
