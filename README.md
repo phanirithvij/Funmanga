@@ -1,24 +1,24 @@
-Well,well,well what have we got here?
+# Well,well,well what have we got here?
 
-==> Manga downloader by Phani Rithvij
+- Manga downloader by Phani Rithvij
 
-==> Download Manga from https://www.funmanga.com/
+- Download Manga from https://www.funmanga.com/
 
-==> Arranges them in a read-able format a html format
+- Arranges them in a read-able format a html format
 
-Requirements :
+### Requirements :
 
-1. wget
+> wget
 
-2. linux system
+> linux system
 
-+> Steps to follow
+### Steps to follow
 
 1)
 Do this in terminal(In the directory Manga you are in)
 Copy and paste it if you want to
 
-```bash
+```shell
 #START
 
 #STEP1
@@ -39,7 +39,7 @@ cat chapters.txt examples.txt
 
 2)
 
-Now go to http://www.funmanga.com/
+Now go to [http://funmanga.com](http://www.funmanga.com/)
 
 search the manga you want
 
@@ -47,7 +47,7 @@ I recommend One piece,Attack on Titan,Shokugeki no Soma,One Punch Man(Not Availa
 
 copy the link you are now in and do this in chapters/ directory
 
-```bash
+```shell
 ./wget.sh url
 ```
 
@@ -59,7 +59,7 @@ Now go inside the downloaded directory (eg: 5404/ if One piece)
 
 do
 
-```bash
+```shell
 cp ../testforall.sh ./
 ./testforall
 ```
@@ -68,18 +68,18 @@ cp ../testforall.sh ./
 Go inside the first directory and you will find index.html
 do
 
-```bash
+```shell
 cd 0/
 firefox index.html #I'm Using firefox
 #or
 #xdg-open index.html
 ```
 
-(Optional)=>
+### (Optional)
 
 you can also paste links of the form
 
-```bash
+```shell
 http://www.funmanga.com/uploads/chapters/5404/
 ```
 
