@@ -1,12 +1,3 @@
-# There is going to be a python version of this in near future
-
-## Still In Development
-
-
-# Well,well,well what have we got here?
-
-- Manga downloader by Phani Rithvij
-
 - Download Manga from https://www.funmanga.com/
 
 - Arranges them in a read-able format a html format
@@ -79,6 +70,8 @@ firefox index.html #I'm Using firefox
 #or
 #xdg-open index.html
 ```
+
+https://stackoverflow.com/a/44353768/8608146
 
 ### (Optional)
 
